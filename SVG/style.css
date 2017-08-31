@@ -1,0 +1,19 @@
+g {
+	width: 100%;
+	margin: 0 auto;
+}
+#bulb-1 {
+	fill: black;
+	transition: all 0.5s ease-in-out;
+}
+#bulb-1:hover {
+	fill: yellow;
+	cursor: wait;
+}
+
+.light_off {
+	fill: black;
+}
+.light_on {
+	fill: yellow;
+}
