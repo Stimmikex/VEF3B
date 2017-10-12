@@ -1,0 +1,582 @@
+# 3ds Max Wavefront OBJ Exporter v0.94b - (c)2007 guruware
+# File Created: 22.07.2008 02:17:46
+
+newmtl Engine
+	Ns 28.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 1.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 0.0000 0.0000 0.0000
+	Ks 0.3780 0.3780 0.3780
+	Ke 0.0000 0.0000 0.0000
+	map_Ka maps\DBR9 ENGINE.tga
+	map_Kd maps\DBR9 ENGINE.tga
+	map_bump -bm 0.3000 maps\Map__139_Normal Bump.tga
+
+newmtl Interior
+	Ns 22.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 1.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 0.0000 0.0000 0.0000
+	Ks 0.3780 0.3780 0.3780
+	Ke 0.0000 0.0000 0.0000
+	map_Ka maps\DBR9 INTERIOR.tga
+	map_Kd maps\DBR9 INTERIOR.tga
+
+newmtl Door
+	Ns 27.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 1.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 0.0000 0.0000 0.0000
+	Ks 0.4320 0.4320 0.4320
+	Ke 0.0000 0.0000 0.0000
+	map_Ka maps\DOOR.tga
+	map_Kd maps\DOOR.tga
+	map_d maps\DOOR MASK.tga
+
+newmtl Bottom
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 1.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 0.0000 0.0000 0.0000
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka maps\BOTTOM.tga
+	map_Kd maps\BOTTOM.tga
+	map_d maps\BOTTOM MASK.tga
+
+newmtl Misc
+	Ns 30.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 1.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 0.0000 0.0000 0.0000
+	Ks 0.5760 0.5760 0.5760
+	Ke 0.0000 0.0000 0.0000
+	map_Ka maps\DBR9 MISC.tga
+	map_Kd maps\DBR9 MISC.tga
+
+newmtl Material__579
+	Ns 23.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 1.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 0.5880 0.5880 0.5880
+	Ks 1.0170 1.0170 1.0170
+	Ke 0.0000 0.0000 0.0000
+	map_Ka maps\DBR9 BRAKELIGHT.tga
+	map_Kd maps\DBR9 BRAKELIGHT.tga
+
+newmtl Badging_Chrome
+	Ns 50.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 1.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 0.0000 0.0000 0.0000
+	Ks 0.3330 0.3330 0.3330
+	Ke 0.0000 0.0000 0.0000
+	map_Ka maps\DBR9 BADGING.tga
+	map_Kd maps\DBR9 BADGING.tga
+	map_d maps\DBR9 BADGING MASK.tga
+	map_bump -bm 0.3000 maps\Map__139_Normal Bump.tga
+	map_refl maps\Map__10_Mask.tga
+
+newmtl Grill
+	Ns 42.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 1.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 0.0000 0.0000 0.0000
+	Ks 0.6660 0.6660 0.6660
+	Ke 0.0000 0.0000 0.0000
+	map_Ka maps\DBR9 GRILL.tga
+	map_Kd maps\DBR9 GRILL.tga
+	map_d maps\DBR9 GRILL MASK.tga
+
+newmtl wire_177026088
+	Ns 32
+	d 1
+	Tr 1
+	Tf 1 1 1
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 0.6941 0.1020 0.3451
+	Ks 0.3500 0.3500 0.3500
+
+newmtl DoorLine
+	Ns 30.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 1.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 0.0000 0.0000 0.0000
+	Ks 0.1710 0.1710 0.1710
+	Ke 0.0000 0.0000 0.0000
+	map_Ka maps\DOORLINE.tga
+	map_Kd maps\DOORLINE.tga
+	map_d maps\DOORLINE MASK.tga
+
+newmtl Black
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 1.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 0.0000 0.0000 0.0000
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+
+newmtl Brake_Pads_Left
+	Ns 34.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 1.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 0.0000 0.0000 0.0000
+	Ks 0.5400 0.5400 0.5400
+	Ke 0.0000 0.0000 0.0000
+	map_Ka maps\DBR9 MISC MIRROR.tga
+	map_Kd maps\DBR9 MISC MIRROR.tga
+
+newmtl Brake_Pads_Right
+	Ns 25.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 1.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 0.0000 0.0000 0.0000
+	Ks 0.6300 0.6300 0.6300
+	Ke 0.0000 0.0000 0.0000
+	map_Ka maps\DBR9 MISC.tga
+	map_Kd maps\DBR9 MISC.tga
+
+newmtl wire_006134113
+	Ns 32
+	d 1
+	Tr 1
+	Tf 1 1 1
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 0.0235 0.5255 0.4431
+	Ks 0.3500 0.3500 0.3500
+
+newmtl Material__639
+	Ns 36.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 1.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 0.5882 0.5882 0.5882
+	Ks 0.6390 0.6390 0.6390
+	Ke 0.0000 0.0000 0.0000
+	map_Ka maps\CARBON.tga
+	map_Kd maps\CARBON.tga
+	map_refl maps\Map__151_fR-Raytrace.tga
+
+newmtl wire_143224087
+	Ns 32
+	d 1
+	Tr 1
+	Tf 1 1 1
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 0.5608 0.8784 0.3412
+	Ks 0.3500 0.3500 0.3500
+
+newmtl wire_088177026
+	Ns 32
+	d 1
+	Tr 1
+	Tf 1 1 1
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 0.3451 0.6941 0.1020
+	Ks 0.3500 0.3500 0.3500
+
+newmtl mirror_line
+	Ns 38.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 1.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 0.1647 0.1647 0.1647
+	Ks 1.2510 1.2510 1.2510
+	Ke 0.0000 0.0000 0.0000
+	map_refl maps\Map__36_Raytrace.tga
+
+newmtl wire_138008110
+	Ns 32
+	d 1
+	Tr 1
+	Tf 1 1 1
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 0.5412 0.0314 0.4314
+	Ks 0.3500 0.3500 0.3500
+
+newmtl Driver_Sport
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 1.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 0.0000 0.0000 0.0000
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka maps\DRIVER SPORT.tga
+	map_Kd maps\DRIVER SPORT.tga
+
+newmtl wire_134059008
+	Ns 32
+	d 1
+	Tr 1
+	Tf 1 1 1
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 0.5255 0.2314 0.0314
+	Ks 0.3500 0.3500 0.3500
+
+newmtl wire_140088225
+	Ns 32
+	d 1
+	Tr 1
+	Tf 1 1 1
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 0.5490 0.3451 0.8824
+	Ks 0.3500 0.3500 0.3500
+
+newmtl wire_154215229
+	Ns 32
+	d 1
+	Tr 1
+	Tf 1 1 1
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 0.6039 0.8431 0.8980
+	Ks 0.3500 0.3500 0.3500
+
+newmtl chrom
+	Ns 46.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 1.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 0.0000 0.0000 0.0000
+	Ks 1.0866 1.0866 1.0866
+	Ke 0.0000 0.0000 0.0000
+	map_Ka maps\DBR9 HEADLIGHT.tga
+	map_Kd maps\DBR9 HEADLIGHT.tga
+	map_refl maps\Map__1_fR-Raytrace.tga
+
+newmtl Material__663
+	Ns 49.0000
+	Ni 1.5000
+	d 0.3300
+	Tr 0.3300
+	Tf 0.3300 0.3300 0.3300 
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 0.0980 0.1843 0.2353
+	Ks 0.8460 0.8460 0.8460
+	Ke 0.0000 0.0000 0.0000
+	map_refl maps\Map__12_Raytrace.tga
+
+newmtl wire_028028177
+	Ns 32
+	d 1
+	Tr 1
+	Tf 1 1 1
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 0.1098 0.1098 0.6941
+	Ks 0.3500 0.3500 0.3500
+
+newmtl wire_008008136
+	Ns 32
+	d 1
+	Tr 1
+	Tf 1 1 1
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 0.0314 0.0314 0.5333
+	Ks 0.3500 0.3500 0.3500
+
+newmtl HoodTrunk
+	Ns 35.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 1.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 0.0000 0.0000 0.0000
+	Ks 0.2970 0.2970 0.2970
+	Ke 0.0000 0.0000 0.0000
+	map_Ka maps\HOODTRUNK.tga
+	map_Kd maps\HOODTRUNK.tga
+	map_d maps\HOODTRUNK MASK.tga
+
+newmtl wire_166229229
+	Ns 32
+	d 1
+	Tr 1
+	Tf 1 1 1
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 0.6510 0.8980 0.8980
+	Ks 0.3500 0.3500 0.3500
+
+newmtl wire_176026026
+	Ns 32
+	d 1
+	Tr 1
+	Tf 1 1 1
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 0.6902 0.1020 0.1020
+	Ks 0.3500 0.3500 0.3500
+
+newmtl Brake_Disc
+	Ns 25.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 1.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 0.0000 0.0000 0.0000
+	Ks 0.6030 0.6030 0.6030
+	Ke 0.0000 0.0000 0.0000
+	map_Ka maps\BRAKDISC.tga
+	map_Kd maps\BRAKDISC.tga
+	map_d maps\TIREBACK.tga
+
+newmtl wire_086086086
+	Ns 32
+	d 1
+	Tr 1
+	Tf 1 1 1
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 0.3373 0.3373 0.3373
+	Ks 0.3500 0.3500 0.3500
+
+newmtl wire_113134006
+	Ns 32
+	d 1
+	Tr 1
+	Tf 1 1 1
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 0.4431 0.5255 0.0235
+	Ks 0.3500 0.3500 0.3500
+
+newmtl Tire
+	Ns 29.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 1.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 0.1922 0.1922 0.1922
+	Ks 0.4100 0.4100 0.4100
+	Ke 0.0000 0.0000 0.0000
+	map_Ka maps\TIRE.tga
+	map_Kd maps\TIRE.tga
+	map_bump maps\TIRE BUMP.tga
+	bump maps\TIRE BUMP.tga
+
+newmtl wire_225088199
+	Ns 32
+	d 1
+	Tr 1
+	Tf 1 1 1
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 0.8824 0.3451 0.7804
+	Ks 0.3500 0.3500 0.3500
+
+newmtl Decals_F
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 1.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 0.0000 0.0000 0.0000
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka maps\WINDOW F SKIN.tga
+	map_Kd maps\WINDOW F SKIN.tga
+	map_d maps\WINDOW F DECALS.tga
+
+newmtl Decals_FL
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 1.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 0.0000 0.0000 0.0000
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka maps\WINDOW FL SKIN.tga
+	map_Kd maps\WINDOW FL SKIN.tga
+	map_d maps\WINDOW FL DECALS.tga
+
+newmtl Decals_FR
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 1.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 0.0000 0.0000 0.0000
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka maps\WINDOW FR SKIN.tga
+	map_Kd maps\WINDOW FR SKIN.tga
+	map_d maps\WINDOW FR DECALS.tga
+
+newmtl Material__609
+	Ns 33.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 1.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.5130 0.5130 0.5130
+	Ke 0.0000 0.0000 0.0000
+	map_Ka maps\WDEFROST.tga
+	map_Kd maps\WDEFROST.tga
+
+newmtl Decals_R
+	Ns 35.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 1.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 0.0000 0.0000 0.0000
+	Ks 0.4410 0.4410 0.4410
+	Ke 0.0000 0.0000 0.0000
+	map_Ka maps\WINDOW R SKIN.tga
+	map_Kd maps\WINDOW R SKIN.tga
+	map_d maps\WINDOW R DECALS.tga
+
+newmtl License
+	Ns 50.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 1.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 0.0000 0.0000 0.0000
+	Ks 0.3330 0.3330 0.3330
+	Ke 0.0000 0.0000 0.0000
+	map_Ka maps\LICENSE.tga
+	map_Kd maps\LICENSE.tga
+	map_d maps\LICENSE MASK.tga
+	map_refl maps\Map__10_Mask.tga
+
+newmtl Seat_Sport
+	Ns 33.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 1.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 0.0000 0.0000 0.0000
+	Ks 0.4680 0.4680 0.4680
+	Ke 0.0000 0.0000 0.0000
+	map_Ka maps\Seat Black Bride.tga
+	map_Kd maps\Seat Black Bride.tga
+
+newmtl 06___Default
+	Ns 27.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 1.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 0.5882 0.5882 0.5882
+	Ks 1.0620 1.0620 1.0620
+	Ke 0.0000 0.0000 0.0000
+	map_Ka maps\DBR9 BRAKELIGHT.tga
+	map_Kd maps\DBR9 BRAKELIGHT.tga
+
+newmtl wire_165165165
+	Ns 32
+	d 1
+	Tr 1
+	Tf 1 1 1
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 0.6471 0.6471 0.6471
+	Ks 0.3500 0.3500 0.3500
+
+newmtl relfection_Material
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 1.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 1.0000 1.0000 1.0000
+	Ks 0.0000 0.0000 0.0000
+	Ke 1.0000 1.0000 1.0000
