@@ -2,20 +2,18 @@ var cubeRotation = 0.0;
 
 main();
 
-//
-// Start here
-//
 function main() {
   const canvas = document.querySelector('#glcanvas');
   const gl = canvas.getContext('webgl');
 
   // If we don't have a GL context, give up now
+  // Þetta er þar sem það er spurt hvort browserin getur notað WebGl.
 
   if (!gl) {
     alert('Unable to initialize WebGL. Your browser or machine may not support it.');
     return;
   }
-
+  // hérna er þar sem "Vertex shaderinn" er gerður.
   // Vertex shader program
 
   const vsSource = `
@@ -96,6 +94,7 @@ function initBuffers(gl) {
   gl.bindBuffer(gl.ARRAY_BUFFER, positionBuffer);
 
   // Now create an array of positions for the cube.
+  // positions er þar sem það er skrifað út punktana sem verða síðan teiknaðir
 
   const positions = [
     // Front face
