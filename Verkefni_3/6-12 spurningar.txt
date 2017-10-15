@@ -1,0 +1,44 @@
+6. Primative 
+	Primatives grafík er notuð á 3D forritun og er verið að ráða um allskins from sem geta verið notuð
+		- kassi
+		- bolti
+		- keila o.fl.
+
+7. Fragment
+	Fragment er partur að því sem er kemur út úr því þegar það er Rasterize-að, 
+	Fragment er líkt pixli en er samt ekki alveg jafn stórt í því skyni að það er ekki hægt að vinna með þá jafn miki?.
+
+8. Pixel
+	Pixel er tengt því þegar að er Rasterize-að, þar sem þegar það er rasterize-að þá veriður myndir 
+	gerð en ekki fyult inn og pixel og að einhverji gráðu
+ 	fragment gerð til að fylla inn á myndina.
+	
+	Pixels eru líkar fragemnts en hafa önnur gildi sem gera pixels flóknari, t.d.
+		- Raster staðsetningu.
+		- díft.
+		- o.fl.
+
+9. Clip	space
+	Clip space er þegar GPU-ið tekur inn gildi fyrir punkta sem skilar þeim svo í 
+	vertex shader-inn og það breyttir því í önnur gildi sem verður svo Clip space.
+
+10. View Frustum
+	View frustum er það svæði sem verður teiknað út þegar það svæði verður á skjánum. 
+	þanig ef einhvað á skjánum sem breytist mun view frustum-ið breyta
+	því sem verður á skjánum. 
+
+11. Z-buffering
+	Z-buffering er oft skilgreint sem "depth buffering" sem er díftin sem er reiknuð/teiknuð út 
+	eftir því hvað er á skjánum.
+	
+	með þessi getur notandi sér einhvað hlutir eru langt frá.
+
+12. Right-hand coordinate system (RHS)
+	Right-hand coordinate system (RHS) er kerfi var sem x, y, z eru notuð til að finna/gera hnit. 
+	það sem gerir RHS öðruvísi frá LHS er að z er oftast notuð á mínus
+	
+
+
+Afhverju eru 3D objectar búnir til útfrá samsettum þríhyrningum	á 3D grafík?
+	
+	því að er léttara fyrir þríhyrninga til að festast saman þar sem þeir erum með þrjá punkta og þessi þrír punktar eiga augveldar að festast saman, 
