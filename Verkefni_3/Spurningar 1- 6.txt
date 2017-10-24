@@ -1,0 +1,15 @@
+Útskýrðu stuttlega eftirfarandi hugtök og hvað þau gera:
+1. WebGL
+	WebGL stendur fyrir Web Graphics Library, WebGL er Javascript API sem er notað til að teikna út 3D grafík.
+2. GPU
+	GPU stendur fyrir Graphics proscessing unit, GPU er verklegi hlutinn að gera 3D grafíkin.
+3. Rasterizing
+	Rasterizing er aðferðin að taka mynd sem er vector og breyta honum í raster mynd(myndin ser gerð með pixlum eða punktum)
+	með þeim tilgangi að sýna þessa vectora í 3D mynd.
+4. GLSL	
+	GLSL stendur fyrir OpenGL Shading Language, GLSL er notað til að auðfelda og gefa notendum meiri stjórn á "graphics pipline"
+	þetta er líka notað til að vinna með "shaders".
+5. Vertex
+	Vertex hefur gildi sem geta verið notuð til að finna staðsetingu o.fl. (x, y, z)
+6. Primative
+	Primative er það sem kemur úr "the Graphics Rendering Pipeline" og þessar ulýsingar er lestnar til að gera vectora. 
