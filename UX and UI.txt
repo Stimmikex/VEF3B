@@ -11,3 +11,11 @@ What are UX and UI?
 		- The user interface is the interaction between the user and the program itself, this is most often used for keyboards
 		  for etc or for plethora of other things to control the computer.
 What's the difference between UX and UI and how can they be used for interface development and programming?
+	The difference between UX and UI is that one is more focused on the experience of the program and the other is more focused
+	on the input into the program from the user, in a way these are some what the same thing but they aren't to close to each other
+	that why are togather in a catagory.
+	UX and UI are used in interface development and programming as they are very focused on added a better experience for the user
+	and with the user having a better time using the program/device the more the user will use it, there for more moeny!!
+	
+
+Bjarki Fannar Snorrason og Styrmir Óli Þorsteinsson.
