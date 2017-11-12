@@ -1,0 +1,13 @@
+What are UX and UI?
+	User experience(UX)
+		- User experiences are the experiences the users get by using a program, site or a game, when working with
+		  UX the developer has to keep in mind to keep every function as simple as possible so that the users
+		  don't get confused about how the program, site or how the game workes. and this is done my trying to make
+		  most process as streamlined as possible.
+		- There are some pros and cons of trying to make the user experience better and the pros are most often then not
+		  that the user has a better time but letting the user have a better time takes time and effort from the programmer
+		  and that will make the programming harder for the programmer.
+	User interface(UI)
+		- The user interface is the interaction between the user and the program itself, this is most often used for keyboards
+		  for etc or for plethora of other things to control the computer.
+What's the difference between UX and UI and how can they be used for interface development and programming?
